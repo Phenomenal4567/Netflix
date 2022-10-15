@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+.homebg {
+  background-color: gray;
+  background-image: url("/images/homebg.jpg");
+  background-blend-mode: multiply;
+  background-size: cover;
+  padding-top: 500px;
+}
+
+body {
+  text-align: center;
+  background: black;
+  color: white;
+  margin: auto;
+  font-family: Poppins, sans-serif;
+}
+
+.top-left {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.top-right {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+
+.head {
+  position: absolute;
+  top: 50px;
+  left: 45px;
+  right: 45px;
+  bottom: 50px;
+  min-height: 50px;
+}
+
+.specs {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+#hrr {
+  background: whitesmoke;
+  margin-top: 0;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+p,
+#a {
+  font-size: 18px;
+}
+
+#asked {
+  background: #303030;
+  border-radius: 3px;
+  border-style: none;
+  width: 250px;
+  padding-left: 15px;
+  font-size: 18px;
+  height: 40px;
+  margin: 5px;
+  color: white;
+}
+
+#email {
+  width: 260px;
+  height: 35px;
+  background: #ffffff;
+  font-size: 18px;
+  padding-left: 15px;
+  border-radius: 3px;
+  border-style: none;
+}
+
+#started {
+  width: 120px;
+  height: 35px;
+  background: #e50913;
+  font-size: 16px;
+  border-radius: 3px;
+  border-style: none;
+  color: white;
+  margin-top: 10px;
+}
+
+#a {
+  text-decoration: none;
+  color: #7b7b7b;
+}
+
+.left {
+  float: left;
+  box-sizing: border-box;
+  width: 33.3%;
+  text-align: left;
+  padding: 25px;
+}
+
+#sign-up {
+  width: 80px;
+  height: 25px;
+  background: #e50913;
+  font-size: 16px;
+  border-radius: 3px;
+  border-style: none;
+  color: white;
+  margin-top: 10px;
+}
